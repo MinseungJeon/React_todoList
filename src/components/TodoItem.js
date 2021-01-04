@@ -49,8 +49,8 @@ const Text = styled.div`
   flex: 1;
   font-size: 21px;
   color: #495057;
-  ${(props) =>
-    props.done &&
+  ${({ done }) =>
+    done &&
     css`
       color: #ced4da;
     `}
